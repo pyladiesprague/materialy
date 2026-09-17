@@ -19,6 +19,7 @@ přidávají, ty starší zůstávají beze změny.
 | 2 | `lekce02-podminky/` | porovnávání, if/elif/else, and/or |
 | 3 | `lekce03-funkce-a-cyklus-for/` | vestavěné funkce, cyklus for |
 | 4 | `lekce04-cyklus-while/` | cyklus while, break, continue, for vs while |
+| 5 | `lekce05-vlastni-funkce/` | def, parametry, return |
 
 Další lekce přibývají v průběhu kurzu.
 
