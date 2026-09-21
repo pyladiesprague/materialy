@@ -25,14 +25,14 @@ Další lekce přibývají v průběhu kurzu.
 ## Co najdeš v každé lekci
 
 ```
-README.md                  o čem lekce je
 TAHAK.md                   shrnutí na jednu stránku
 01_koncept/                složka na každý koncept
    NN_nazev.py             výklad se spustitelnými ukázkami
-   cviceni.py              úkoly k procvičení
-   cviceni_bonus.py        bonusy pro rychlíky
-   reseni/                 vzorová řešení
+   cviceni/                úkoly k procvičení, jeden soubor na úlohu
+   cviceni/reseni/         vzorová řešení
+   cviceni_bonusy/         bonusy pro rychlíky
+   cviceni_bonusy/reseni/  řešení bonusů
 ```
 
 Soubory s výkladem procházej popořadě podle čísla, spouštěj je tlačítkem
-**Run** vpravo nahoře a čti komentáře. Pak se pusť do `cviceni.py`.
+**Run** vpravo nahoře a čti komentáře. Pak se pusť do složky `cviceni/`.
