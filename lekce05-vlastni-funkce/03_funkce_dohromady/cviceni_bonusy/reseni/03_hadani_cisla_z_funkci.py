@@ -1,11 +1,11 @@
 # Řešení bonusu 3 – Funkce dohromady
 # Tvoje řešení může vypadat jinak, a to je v pořádku.
 
-from random import randrange
-
 # Hra na hádání čísla, celá poskládaná z funkcí – losování,
 #     načtení tipu i vyhodnocení ať má každé svoji.
 #     Hlavní cyklus while pak jenom tyhle funkce volá.
+
+from random import randrange
 
 def vylosuj_cislo():
     return randrange(1, 21)

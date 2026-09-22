@@ -1,12 +1,12 @@
 # Řešení cvičení 5 – Funkce dohromady
 # Tvoje řešení může vypadat jinak, a to je v pořádku.
 
-from random import randrange
-
 # Napiš program s nabídkou: hodit kostkou, pozdravit, konec.
 #    V cyklu while True nabídku zobraz, zeptej se na volbu a podle ní
 #    zavolej funkci. Po volbě "konec" cyklus ukonči.
 #    Každá volba i samotné zobrazení nabídky ať je vlastní funkce.
+
+from random import randrange
 
 def zobraz_menu():
     print("1 - hodit kostkou")
