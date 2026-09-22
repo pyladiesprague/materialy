@@ -4,7 +4,7 @@
 # Napiš funkci ohodnot_znamku(znamka), která vypíše:
 #    1 → "Výborně", 2 → "Chvalitebně", 3 → "Dobře",
 #    cokoliv jiného → "Ještě zabereme".
-#    Vyzkoušej ji na známkách 1, 3 a 5.
+#    Zavolej ji v cyklu for pro známky 1 až 5.
 
 def ohodnot_znamku(znamka):
     if znamka == 1:
@@ -17,6 +17,5 @@ def ohodnot_znamku(znamka):
         print("Ještě zabereme")
 
 
-ohodnot_znamku(1)
-ohodnot_znamku(3)
-ohodnot_znamku(5)
+for znamka in range(1, 6):
+    ohodnot_znamku(znamka)

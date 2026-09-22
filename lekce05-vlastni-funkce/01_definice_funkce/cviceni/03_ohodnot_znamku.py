@@ -4,6 +4,6 @@
 # Napiš funkci ohodnot_znamku(znamka), která vypíše:
 #    1 → "Výborně", 2 → "Chvalitebně", 3 → "Dobře",
 #    cokoliv jiného → "Ještě zabereme".
-#    Vyzkoušej ji na známkách 1, 3 a 5.
+#    Zavolej ji v cyklu for pro známky 1 až 5.
 
 
