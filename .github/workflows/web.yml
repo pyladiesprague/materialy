@@ -1,4 +1,5 @@
-# Ověří, že se materiály dají převést na web (pyladiesprague/public-pages),
+# Ověří, že se materiály dají převést na web (soukromé pyladiesprague/public-pages,
+# čte se tokenem PUBLIC_PAGES_TOKEN),
 # a po pushi do main tam spustí import, který otevře PR s novými stránkami.
 name: Web
 
@@ -12,6 +13,9 @@ permissions:
 
 jobs:
   kontrola:
+    # PR z forků (např. účastnic) nemají přístup k secretu, bez něj se
+    # soukromé public-pages nenaklonuje.
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -20,6 +24,8 @@ jobs:
         with:
           repository: pyladiesprague/public-pages
           path: .web
+          token: ${{ secrets.PUBLIC_PAGES_TOKEN }}
+          persist-credentials: false
 
       - uses: actions/setup-node@v7
         with:
