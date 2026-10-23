@@ -20,6 +20,7 @@ přidávají, ty starší zůstávají beze změny.
 | 3 | `lekce03-funkce-a-cyklus-for/` | vestavěné funkce, cyklus for |
 | 4 | `lekce04-cyklus-while/` | cyklus while, break, continue, for vs while |
 | 5 | `lekce05-vlastni-funkce/` | def, parametry, return |
+| 6 | `lekce06-retezce/` | f-stringy, metody řetězců, indexování a výřezy |
 
 Další lekce přibývají v průběhu kurzu.
 
