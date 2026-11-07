@@ -22,6 +22,7 @@ přidávají, ty starší zůstávají beze změny.
 | 5 | `lekce05-vlastni-funkce/` | def, parametry, return |
 | 6 | `lekce06-retezce/` | f-stringy, metody řetězců, indexování a výřezy |
 | 7 | `lekce07-procvicovani-a-debugging/` | čtení chybových hlášek, debugger ve VS Code |
+| 8 | `lekce08-seznamy-a-n-tice/` | seznamy, metody seznamů, n-tice, rozbalování |
 
 Další lekce přibývají v průběhu kurzu.
 
