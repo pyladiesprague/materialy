@@ -22,9 +22,18 @@ přidávají, ty starší zůstávají beze změny.
 | 5 | `lekce05-vlastni-funkce/` | def, parametry, return |
 | 6 | `lekce06-retezce/` | f-stringy, metody řetězců, indexování a výřezy |
 | 7 | `lekce07-procvicovani-a-debugging/` | čtení chybových hlášek, debugger ve VS Code |
+| 8 | `lekce08-seznamy-a-n-tice/` | seznamy, metody seznamů, n-tice, rozbalování |
 | 9 | `lekce09-slovniky/` | slovníky, počítání a skupiny, záznamy |
 
+
 Další lekce přibývají v průběhu kurzu.
+
+## Workshopy
+
+Materiály k workshopům jsou v samostatných repozitářích:
+
+- [Opakovací workshop](https://github.com/pyladiesprague/workshop-opakovani)
+- [Závěrečný workshop](https://github.com/pyladiesprague/workshop-zaverecny)
 
 ## Co najdeš v každé lekci
 
