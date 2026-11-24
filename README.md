@@ -3,6 +3,9 @@
 Výukové materiály kurzu programování v Pythonu pro začátečnice.
 Běh **podzim 2026**, 13 lekcí.
 
+Web kurzu: [pyladiesprague.cz](https://pyladiesprague.cz) · Kontakt:
+[info@pyladiesprague.cz](mailto:info@pyladiesprague.cz)
+
 ## Jak si materiály stáhnout
 
 Nahoře klikni na zelené tlačítko **Code** → **Download ZIP**. Stažený archiv
@@ -56,7 +59,8 @@ Soubory s výkladem procházej popořadě podle čísla, spouštěj je tlačítk
 ## Pro autory
 
 Z materiálů se automaticky generuje web kurzu
-([pyladiesprague/public-pages](https://github.com/pyladiesprague/public-pages)),
+[pyladiesprague.cz](https://pyladiesprague.cz)
+(repo [pyladiesprague/public-pages](https://github.com/pyladiesprague/public-pages)),
 proto musí soubory dodržet formát, který převod umí přečíst:
 
 - Výklad `NN_nazev.py` začíná titulkem mezi dvěma řádky `# ---`.
